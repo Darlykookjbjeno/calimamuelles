@@ -223,7 +223,7 @@ $ModeloImagen = new Imagenes();
                 
                 <div class="col-md-3 col-sm-6 col-12">
                   <div class="info-box">
-                  <img src="data:image/jpg;base64, <?php echo base64_encode($row['imagen']);?>" style="width: 60px;"/>
+                  <img class="my-5" src="data:image/jpg;base64, <?php echo base64_encode($row['imagen']);?>" style="width: 80px; height:80px; "/>
 
                     <div class="info-box-content">
                       <span class="info-box-text"> id: <?php echo $row['id_imagenesp']; ?></span>
